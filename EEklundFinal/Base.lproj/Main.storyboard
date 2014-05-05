@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Eklund Final View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="EEklundFinalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GLD Industry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0f3-fb-tbv">
+                                <rect key="frame" x="20" y="20" width="984" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.62340561224489788" green="0.023256029230905306" blue="0.097880290058710046" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yAW-NH-gS7">
+                                <rect key="frame" x="5" y="76" width="180" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Arkonor" image="Arkonor.png">
+                                    <color key="titleColor" red="0.78382095025510201" green="0.68365353830918285" blue="0.096995336086638823" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ku2-57-cvT">
+                                <rect key="frame" x="589" y="75" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Kernite" image="Kernite.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8U8-qo-ZoF">
+                                <rect key="frame" x="5" y="142" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Bistot" image="Bistot.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ngC-tC-AYC">
+                                <rect key="frame" x="10" y="208" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Crokite" image="Crokite.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sxs-ku-WsT">
+                                <rect key="frame" x="20" y="274" width="179" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Dark Ochre" image="DarkOchre.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eg1-w1-JbN">
+                                <rect key="frame" x="10" y="340" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Gneiss" image="Gneiss.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PQh-tL-G25">
+                                <rect key="frame" x="20" y="406" width="179" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Hedbergite" image="Hedbergite.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2Gc-Cx-ASQ">
+                                <rect key="frame" x="20" y="472" width="179" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Hemorphite" image="Hemorphite.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="P5V-QT-N1d">
+                                <rect key="frame" x="10" y="538" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Jaspet" image="Jaspet.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="fqy-am-gtn">
+                                <rect key="frame" x="198" y="89" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="NIa-mL-Mbb"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="vzN-dW-urw"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Rn7-r0-KLo"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="QVZ-uu-1Xr">
+                                <rect key="frame" x="790" y="89" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="MJc-pt-V8P"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ML1-st-FYK"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Fey-Of-iyU"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Np0-NO-nw4">
+                                <rect key="frame" x="265" y="92" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="olJ-sJ-Ev8">
+                                <rect key="frame" x="198" y="156" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="CwR-B2-RtO"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="mRk-cP-2d4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nC8-5q-kWR"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bg0-kk-sSy">
+                                <rect key="frame" x="266" y="159" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="qoq-i2-VKk">
+                                <rect key="frame" x="198" y="222" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="QaW-Qm-wM1"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="g3E-pb-IWe"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ze1-0C-fXm"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8xL-dJ-vGf">
+                                <rect key="frame" x="265" y="225" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="VLn-Si-tKV">
+                                <rect key="frame" x="198" y="288" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="40G-cR-hwm"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="e0E-E0-KVQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Zxj-Ht-MdL"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pSp-Is-sM0">
+                                <rect key="frame" x="266" y="291" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="Euw-8O-Alk">
+                                <rect key="frame" x="198" y="354" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="vX8-nm-IRD"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="vuu-El-mNA"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="tKM-Pb-Lw2"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xFq-8f-DZe">
+                                <rect key="frame" x="265" y="357" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="d93-31-o9n">
+                                <rect key="frame" x="198" y="420" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Lsq-Ti-fyH"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="b1s-rm-Lkh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FTa-Up-dF0"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z8e-Ge-yJa">
+                                <rect key="frame" x="265" y="423" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="kaP-Oz-umn">
+                                <rect key="frame" x="198" y="486" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="bRp-xh-Shg"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="gSq-9R-CaR"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Oo1-Om-C74"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xuc-4Z-i19">
+                                <rect key="frame" x="265" y="489" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="VIP-c0-4pd">
+                                <rect key="frame" x="198" y="552" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="uoz-Eu-aa2"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="xiv-hE-TWL"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="A7A-ez-51z"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Ko-k1-fom">
+                                <rect key="frame" x="265" y="555" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U3v-jR-vUi">
+                                <rect key="frame" x="869" y="92" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SpB-3q-hok">
+                                <rect key="frame" x="595" y="142" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Mercoxit" image="Mercoxit.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="X48-Ze-93f">
+                                <rect key="frame" x="790" y="156" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="7dW-iB-zCU"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="niy-Xg-Rfj"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="2OC-pD-wG7"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DHd-dI-cty">
+                                <rect key="frame" x="869" y="159" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UdY-rx-7IE">
+                                <rect key="frame" x="589" y="208" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Omber" image="Omber.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="vGg-Kf-7la">
+                                <rect key="frame" x="790" y="222" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="Tr3-9p-YNe"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="gwD-Uj-jQF"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="aLB-Pq-dO6"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cGo-QP-RIU">
+                                <rect key="frame" x="869" y="225" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YFo-Ct-QlD">
+                                <rect key="frame" x="602" y="274" width="180" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Plagioclaise" image="Plagioclaise.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="cVY-Cs-1E2">
+                                <rect key="frame" x="790" y="288" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="I5u-r4-wtA"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="tVz-8n-bgr"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="VsP-cj-Df6"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ffj-YQ-mSR">
+                                <rect key="frame" x="869" y="291" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vqQ-h6-Sw2">
+                                <rect key="frame" x="602" y="340" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Pyroxeres" image="Pyroxeres.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="bZ8-35-zB3">
+                                <rect key="frame" x="790" y="354" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="6bU-YL-rOp"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="qRK-gP-2j0"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="O07-dD-TDm"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="03F-Jz-sMo">
+                                <rect key="frame" x="869" y="357" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CId-na-WzT">
+                                <rect key="frame" x="595" y="406" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Scordite" image="Scordite.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="xcE-pw-Juy">
+                                <rect key="frame" x="790" y="420" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="NBT-Az-zD4"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="nRS-v3-4BR"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="7lC-8C-eGM"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x38-yA-410">
+                                <rect key="frame" x="869" y="423" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9zD-SE-QCO">
+                                <rect key="frame" x="602" y="471" width="180" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Spodumain" image="Spodumain.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="Eyd-4J-RHk">
+                                <rect key="frame" x="790" y="486" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="FXY-Ox-vlW"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="Owm-a2-eKR"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="li4-pl-nLl"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FP1-aL-TO3">
+                                <rect key="frame" x="869" y="489" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lLN-cg-VAO">
+                                <rect key="frame" x="595" y="538" width="160" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Veldspar" image="Veldspar.png">
+                                    <color key="titleColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="qga-gU-Rpy">
+                                <rect key="frame" x="790" y="552" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="q7Y-dd-q0U"/>
+                                    <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="xjn-q3-yVw"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="oIT-ZT-Nef"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mID-CV-vn3">
+                                <rect key="frame" x="869" y="555" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Th-DL-vIA">
+                                <rect key="frame" x="376" y="626" width="272" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lJS-ZG-RPm">
+                                <rect key="frame" x="265" y="626" width="74" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.78382095029999999" green="0.68365353829999997" blue="0.096995336089999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xzo-fX-fi4">
+                                <rect key="frame" x="741" y="626" width="109" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="0.62340561220000001" green="0.023256029229999999" blue="0.09788029006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btncalc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2b0-wV-3qi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1fF-qs-RxY">
+                                <rect key="frame" x="20" y="624" width="87" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.62340561220000001" green="0.023256029229999999" blue="0.09788029006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnclr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzC-57-LkP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="lblark" destination="Np0-NO-nw4" id="xYb-E7-4rV"/>
+                        <outlet property="lblbis" destination="bg0-kk-sSy" id="Zlz-D2-3BS"/>
+                        <outlet property="lblcro" destination="8xL-dJ-vGf" id="uJh-fz-EbL"/>
+                        <outlet property="lbldar" destination="pSp-Is-sM0" id="m6m-al-Myc"/>
+                        <outlet property="lblgne" destination="xFq-8f-DZe" id="c5a-tn-UZZ"/>
+                        <outlet property="lblhed" destination="z8e-Ge-yJa" id="Xsc-wB-R1S"/>
+                        <outlet property="lblhem" destination="xuc-4Z-i19" id="TWo-yS-pYB"/>
+                        <outlet property="lbljas" destination="3Ko-k1-fom" id="hC3-rv-h6I"/>
+                        <outlet property="lblker" destination="U3v-jR-vUi" id="VwY-ZE-Q2K"/>
+                        <outlet property="lblmer" destination="DHd-dI-cty" id="S5A-9M-f5E"/>
+                        <outlet property="lblomb" destination="cGo-QP-RIU" id="xtg-r2-8BU"/>
+                        <outlet property="lblpla" destination="Ffj-YQ-mSR" id="0f1-Hy-7Ze"/>
+                        <outlet property="lblpyr" destination="03F-Jz-sMo" id="hBJ-VL-ThZ"/>
+                        <outlet property="lblsco" destination="x38-yA-410" id="XWa-nh-K3I"/>
+                        <outlet property="lblspo" destination="FP1-aL-TO3" id="WWf-CY-10c"/>
+                        <outlet property="lbltot" destination="3Th-DL-vIA" id="fBr-T2-6tB"/>
+                        <outlet property="lblvel" destination="mID-CV-vn3" id="Hg7-PV-iTw"/>
+                        <outlet property="txtark" destination="fqy-am-gtn" id="jAE-3D-v1f"/>
+                        <outlet property="txtbis" destination="olJ-sJ-Ev8" id="2Xi-4e-XGZ"/>
+                        <outlet property="txtcro" destination="qoq-i2-VKk" id="P4a-V2-q3N"/>
+                        <outlet property="txtdar" destination="VLn-Si-tKV" id="CSB-UY-KnC"/>
+                        <outlet property="txtgne" destination="Euw-8O-Alk" id="4Xc-Pt-5PL"/>
+                        <outlet property="txthed" destination="d93-31-o9n" id="MC2-ss-YCD"/>
+                        <outlet property="txthem" destination="kaP-Oz-umn" id="F06-we-lkG"/>
+                        <outlet property="txtjas" destination="VIP-c0-4pd" id="xBb-Tu-dba"/>
+                        <outlet property="txtker" destination="QVZ-uu-1Xr" id="tw9-lb-aWY"/>
+                        <outlet property="txtmer" destination="X48-Ze-93f" id="Mbk-JI-2qO"/>
+                        <outlet property="txtomb" destination="vGg-Kf-7la" id="Dwa-GA-wTI"/>
+                        <outlet property="txtpla" destination="cVY-Cs-1E2" id="HUb-sj-7Ga"/>
+                        <outlet property="txtpyr" destination="bZ8-35-zB3" id="A5M-46-PRb"/>
+                        <outlet property="txtsco" destination="xcE-pw-Juy" id="RvS-EH-f9t"/>
+                        <outlet property="txtspo" destination="Eyd-4J-RHk" id="2lD-ie-GAu"/>
+                        <outlet property="txtvel" destination="qga-gU-Rpy" id="aQ0-92-6It"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-565" y="-397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Arkonor.png" width="64" height="64"/>
+        <image name="Bistot.png" width="64" height="64"/>
+        <image name="Crokite.png" width="64" height="64"/>
+        <image name="DarkOchre.png" width="64" height="64"/>
+        <image name="Gneiss.png" width="64" height="64"/>
+        <image name="Hedbergite.png" width="64" height="64"/>
+        <image name="Hemorphite.png" width="64" height="64"/>
+        <image name="Jaspet.png" width="64" height="64"/>
+        <image name="Kernite.png" width="64" height="64"/>
+        <image name="Mercoxit.png" width="64" height="64"/>
+        <image name="Omber.png" width="64" height="64"/>
+        <image name="Plagioclaise.png" width="64" height="64"/>
+        <image name="Pyroxeres.png" width="64" height="64"/>
+        <image name="Scordite.png" width="64" height="64"/>
+        <image name="Spodumain.png" width="64" height="64"/>
+        <image name="Veldspar.png" width="64" height="64"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
